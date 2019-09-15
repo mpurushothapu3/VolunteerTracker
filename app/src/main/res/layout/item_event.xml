@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/NameHolder"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:text="VIBHA Mile Run"
+                android:textSize="20dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/HoursHolder"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="10 Hours"
+                android:layout_marginEnd="10dp"
+                android:textSize="18dp"
+                android:gravity="right"/>
+        </TableRow>>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/BeneficiaryHolder"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="VIBHA Charities"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/DateHolder"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:text="7/26/2019"
+            android:layout_marginEnd="10dp"
+            android:textSize="18dp"
+            android:gravity="right"/>
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
